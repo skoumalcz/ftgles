@@ -262,7 +262,7 @@ const FTContour* const FTVectoriser::Contour(size_t index) const
 
 void FTVectoriser::MakeMesh(FTGL_DOUBLE zNormal, int outsetType, float outsetSize)
 {
-    if(mesh)
+    /*if(mesh)
     {
         delete mesh;
     }
@@ -293,7 +293,6 @@ void FTVectoriser::MakeMesh(FTGL_DOUBLE zNormal, int outsetType, float outsetSiz
 
         for(size_t c = 0; c < ContourCount(); ++c)
         {
-            /* Build the */
 	
             switch(outsetType)
             {
@@ -323,6 +322,6 @@ void FTVectoriser::MakeMesh(FTGL_DOUBLE zNormal, int outsetType, float outsetSiz
         }
     gluTessEndPolygon(tobj);
 
-	gluDeleteTess(tobj);
+	gluDeleteTess(tobj);*/
 }
 

@@ -28,7 +28,7 @@
 #define     __FTVectoriser__
 
 #include "FTGL/ftgles.h"
-#include "glu.h"
+//#include "glu.h"
 
 #include "FTContour.h"
 #include "FTList.h"
